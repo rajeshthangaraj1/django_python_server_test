@@ -1,0 +1,2 @@
+# django_python_server_test
+django_python_server_test
