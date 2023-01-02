@@ -76,11 +76,11 @@ WSGI_APPLICATION = 'testpro.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'myproject',
-        'USER': 'myprojectuser',
-        'PASSWORD': 'password',
+        'NAME': 'dockertesting',
+        'USER': 'dockertestinguser',
+        'PASSWORD': 'dockertestinguser@12345622',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '5432',
     }
 }
 
